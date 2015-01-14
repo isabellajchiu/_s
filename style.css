@@ -81,7 +81,7 @@ html {
 }
 
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+	background: #3b3b3b; /* Fallback for when there is no custom background color defined. */
 }
 
 article,
@@ -146,7 +146,7 @@ button,
 input,
 select,
 textarea {
-	color: #880822;
+	color: #ffffff;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -783,4 +783,70 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/**
+ * Header
+ */
+
+.site-header {
+	position: relative;
+	width: 100%;
+}
+
+.site-header h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 38px;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	text-align: center;
+	color: inherit;
+}
+
+.site-header nav a{
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 50px;
+}
+
+#site-navigation .menu {
+	width: 380px;
+	margin: 0 auto;
+}
+
+/**
+ * Pages
+ */
+
+.site-content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.entry-title {
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.entry-meta {
+	font-size: 13px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.entry-footer a{
+	margin-right: 15px;
+	font-size: 13px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.widget-area {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.site-footer {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
 }
