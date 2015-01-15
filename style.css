@@ -406,17 +406,18 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: white;
+	text-decoration: none;
 }
 
 a:visited {
-	color: purple;
+	color: white;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: white;
 }
 
 /*--------------------------------------------------------------
@@ -797,20 +798,24 @@ object {
 .site-header h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 38px;
+	color: #
 	margin-top: 0.67em;
 	margin-bottom: 0.67em;
 	text-align: center;
-	color: inherit;
+}
+
+.site-title {
+	margin-top: 20px;
 }
 
 .site-header nav a{
 	font-size: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
-	margin-left: 50px;
+	margin-left: 57px;
 }
 
 #site-navigation .menu {
-	width: 380px;
+	width: 400px;
 	margin: 0 auto;
 }
 
@@ -829,17 +834,20 @@ object {
 .entry-title {
 	font-size: 25px;
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #3b3b3b;
 }
 
 .entry-meta {
 	font-size: 13px;
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #b0b3b6;
 }
 
 .entry-footer a{
 	margin-right: 15px;
 	font-size: 13px;
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #b0b3b6;
 }
 
 .widget-area {
@@ -849,4 +857,5 @@ object {
 .site-footer {
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
+	color: #b0b3b6;
 }
