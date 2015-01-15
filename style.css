@@ -843,6 +843,11 @@ object {
 	color: #b0b3b6;
 }
 
+/*
+**Footer
+**
+*/
+
 .entry-footer a{
 	margin-right: 15px;
 	font-size: 13px;
@@ -858,4 +863,21 @@ object {
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 	color: #b0b3b6;
+}
+
+/*
+**About
+**
+*/
+
+
+.contact-buttons {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.contact-buttons .icon-wrapper {
+	float: left;
+	width: 25%;
+	text-align: center;
 }
