@@ -798,7 +798,6 @@ object {
 .site-header h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 38px;
-	color: #
 	margin-top: 0.67em;
 	margin-bottom: 0.67em;
 	text-align: center;
@@ -811,6 +810,7 @@ object {
 .site-header nav a{
 	font-size: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #a3bdc8;
 }
 
 #site-navigation .menu {
@@ -823,7 +823,6 @@ object {
 	width: 33%;
 	text-align: center;
 }
-
 
 /**
  * Pages
