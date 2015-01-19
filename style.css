@@ -811,13 +811,19 @@ object {
 .site-header nav a{
 	font-size: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
-	margin-left: 57px;
 }
 
 #site-navigation .menu {
 	width: 400px;
 	margin: 0 auto;
 }
+
+.page_item {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
 
 /**
  * Pages
@@ -872,12 +878,12 @@ object {
 
 
 .contact-buttons {
-	width: 400px;
+	width: 500px;
 	margin: 0 auto;
 }
 
 .contact-buttons .icon-wrapper {
 	float: left;
-	width: 25%;
+	width: 20%;
 	text-align: center;
 }
