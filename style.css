@@ -814,13 +814,13 @@ object {
 }
 
 #site-navigation .menu {
-	width: 400px;
+	width: 200px;
 	margin: 0 auto;
 }
 
 .page_item {
 	float: left;
-	width: 33%;
+	width: 50%;
 	text-align: center;
 }
 
