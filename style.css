@@ -814,14 +814,17 @@ object {
 }
 
 #site-navigation .menu {
-	width: 200px;
-	margin: 0 auto;
+	width: 100%;
+	text-align: center;
 }
 
-.page_item {
-	float: left;
-	width: 50%;
-	text-align: center;
+#site-navigation .menu li {
+	display: inline-block;
+	float: none;
+}
+
+#site-navigation .menu li:not(:first-child) {
+	margin-left: 20px;
 }
 
 /**
